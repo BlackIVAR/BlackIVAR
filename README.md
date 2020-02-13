@@ -8,7 +8,7 @@ Installation
 
 install :
 
-```git clone https://github.com/BlackIVARabas/BlackIVAR && cd BlackIVAR && chmod +x install.sh && ./install.sh```
+```git clone https://github.com/BlackIVAR/BlackIVAR && cd BlackIVAR && chmod +x install.sh && ./install.sh```
 
 ______________________________________________________________________________________________________________________
 
