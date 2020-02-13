@@ -70,11 +70,11 @@ RunBlackIVAR:write([[
 #!/usr/bin/env bash
 cd $HOME/BlackIVAR
 token="]]..database:get(Server_BlackIVAR.."Token_BlackIVAR")..[["
-rm -fr BlackIVAR.lua
+rm -fr BlackX.lua
 wget "https://raw.githubusercontent.com/BlackIVAR/BlackIVAR/master/BlackX.lua"
 while(true) do
 rm -fr ../.telegram-cli
-./tg -s ./BlackIVAR.lua -p PROFILE --bot=$token
+./tg -s ./BlackX.lua -p PROFILE --bot=$token
 done
 ]])
 RunBlackIVAR:close()
